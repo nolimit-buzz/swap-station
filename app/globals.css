@@ -1,4 +1,4 @@
-﻿@import "leaflet/dist/leaflet.css";
+@import "leaflet/dist/leaflet.css";
 @import "tailwindcss";
 @layer theme, base, components, utilities;
 
@@ -95,6 +95,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: var(--font-outfit), sans-serif;
 }
 
 body {

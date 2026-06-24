@@ -43,6 +43,18 @@
   --text-8xl--line-height: 1;
   --text-9xl: 8rem;
   --text-9xl--line-height: 1;
+
+  --color-emerald-50: #f8f1fd;
+  --color-emerald-100: #eedffb;
+  --color-emerald-200: #d8b3f7;
+  --color-emerald-300: #bf80f0;
+  --color-emerald-400: #9d4ddf;
+  --color-emerald-500: #7a00b8;
+  --color-emerald-600: #660099;
+  --color-emerald-700: #4d0073;
+  --color-emerald-800: #360052;
+  --color-emerald-900: #240036;
+  --color-emerald-950: #120018;
 }
 
 @import "tailwindcss/theme.css" layer(theme);
@@ -79,7 +91,7 @@
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #660099 0%, #3b82f6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -104,6 +116,10 @@ body {
   color: #f8fafc;
   overflow-x: hidden;
   font-family: var(--font-outfit), sans-serif;
+}
+
+.text-slate-950 {
+  color: #180206;
 }
 
 .leaflet-container {
@@ -147,3 +163,6 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+

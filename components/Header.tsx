@@ -14,7 +14,7 @@ interface HeaderProps {
 
 const Logo: React.FC<{ scrolled: boolean; onNavigate: (page: any) => void; isDarkMode?: boolean }> = ({ scrolled, onNavigate, isDarkMode }) => {
   // If scrolled, color depends on theme. If not scrolled, usually white (transparent header on hero)
-  const color = scrolled ? (isDarkMode ? "#10b981" : "#10b981") : "#ffffff";
+  const color = scrolled ? (isDarkMode ? "#660099" : "#660099") : "#ffffff";
   const textColor = scrolled ? (isDarkMode ? "text-white" : "text-slate-900") : "text-white";
   const logo = scrolled ? "/logo.png" : "/logo-light.png";
   return (
@@ -300,3 +300,4 @@ const Header: React.FC<HeaderProps> = ({ scrolled, currentPage, onNavigate, show
 };
 
 export default Header;
+

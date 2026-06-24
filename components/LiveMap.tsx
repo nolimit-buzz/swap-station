@@ -79,7 +79,7 @@ const LiveMap: React.FC = () => {
                     className="flex items-center justify-between px-5 py-7 rounded-2xl bg-white border border-slate-50 transition-all cursor-default shadow-[0_8px_30px_rgb(0,0,0,0.04)] group"
                   >
                     <div className="flex items-center gap-6">
-                      <div className="w-4 h-4 rounded-full bg-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.4)]" />
+                      <div className="w-4 h-4 rounded-full bg-emerald-500 shadow-[0_0_15px_rgba(102,0,153,0.4)]" />
                       <div>
                         <div className="font-black text-slate-950 text-xl tracking-tight leading-none mb-3">{station.name}</div>
                         <div className="text-[11px] text-slate-400 font-black uppercase tracking-[0.2em]">{station.uptime} Uptime</div>

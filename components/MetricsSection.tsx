@@ -100,7 +100,7 @@ const MetricsSection: React.FC<MetricsSectionProps> = ({ onNavigate }) => {
         >
           <button 
             onClick={() => onNavigate && onNavigate('locator')}
-            className="group flex items-center justify-center gap-8 bg-emerald-600 hover:bg-[#020617] text-white px-12 py-6 rounded-full text-xs font-black uppercase tracking-[0.2em] transition-all duration-500 hover:-translate-y-1 active:scale-[0.98] shadow-[0_20px_40px_rgba(16,185,129,0.25)] hover:shadow-[0_20px_40px_rgba(2,6,23,0.3)]"
+            className="group flex items-center justify-center gap-8 bg-emerald-600 hover:bg-[#020617] text-white px-12 py-6 rounded-full text-xs font-black uppercase tracking-[0.2em] transition-all duration-500 hover:-translate-y-1 active:scale-[0.98] shadow-[0_20px_40px_rgba(102,0,153,0.25)] hover:shadow-[0_20px_40px_rgba(2,6,23,0.3)]"
           >
             <div className="flex flex-col items-start leading-none text-left">
               <span className="text-[9px] text-emerald-100 group-hover:text-slate-400 mb-1 transition-colors">Network Map</span>
@@ -116,3 +116,4 @@ const MetricsSection: React.FC<MetricsSectionProps> = ({ onNavigate }) => {
 };
 
 export default MetricsSection;
+

@@ -79,7 +79,7 @@ const PainSolution: React.FC = () => {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="p-10 rounded-3xl bg-emerald-600 flex flex-col justify-between shadow-[0_30px_60px_-15px_rgba(5,150,105,0.4)] relative overflow-hidden"
+            className="p-10 rounded-3xl bg-emerald-600 flex flex-col justify-between shadow-[0_30px_60px_-15px_rgba(102,0,153,0.4)] relative overflow-hidden"
           >
             {/* Subtle light pulse background */}
             <div className="absolute top-[-20%] right-[-20%] w-64 h-64 bg-white/10 blur-3xl rounded-full pointer-events-none" />

@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-6"
         >
-          <button className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white px-10 py-5 rounded-[15rem] font-black text-sm transition-all transform hover:-translate-y-1 hover:shadow-[0_20px_40px_-12px_rgba(16,185,129,0.4)] active:scale-95 shadow-xl uppercase tracking-widest cursor-pointer">
+          <button className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white px-10 py-5 rounded-[15rem] font-black text-sm transition-all transform hover:-translate-y-1 hover:shadow-[0_20px_40px_-12px_rgba(102,0,153,0.4)] active:scale-95 shadow-xl uppercase tracking-widest cursor-pointer">
             {HERO_CONTENT.ctaPrimary}
           </button>
           <button className="w-full sm:w-auto glass hover:bg-white/10 text-white px-10 py-5 rounded-[15rem] font-black text-sm flex items-center justify-center gap-4 transition-all transform hover:-translate-y-1 active:scale-95 group uppercase tracking-widest cursor-pointer">
@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
           <motion.div 
             animate={{ y: [0, 48, 0] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute top-0 left-1/2 -translate-x-1/2 w-2 h-2 bg-emerald-400 rounded-full shadow-[0_0_20px_#10b981]"
+            className="absolute top-0 left-1/2 -translate-x-1/2 w-2 h-2 bg-emerald-400 rounded-full shadow-[0_0_20px_#660099]"
           />
         </div>
       </motion.div>
@@ -123,3 +123,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+

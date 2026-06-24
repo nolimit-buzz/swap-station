@@ -435,11 +435,11 @@ const NewsPage: React.FC<NewsPageProps> = ({ onNavigate, onReadArticle, onNaviga
           background: transparent;
         }
         .custom-scrollbar::-webkit-scrollbar-thumb {
-          background: #10b981; /* Emerald-500 */
+          background: #660099; /* Emerald-500 */
           border-radius: 20px;
         }
         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-          background: #059669; /* Emerald-600 */
+          background: #4d0073; /* Emerald-600 */
         }
       `}</style>
 
@@ -738,3 +738,4 @@ const NewsPage: React.FC<NewsPageProps> = ({ onNavigate, onReadArticle, onNaviga
 };
 
 export default NewsPage;
+
